@@ -28,6 +28,7 @@
   --yellow-100: #fff3bf;
   --joe-bkg: #f3f1e4;
   --joe-body: #7e7963;
+  --joe-link: #c58e72;
 
   --body-font: -apple-system, BlinkMacSystemFont, "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --body-font-size: 16px;
@@ -36,8 +37,8 @@
   --body-color: var(--joe-body);
   --body-bg: var(--joe-bkg);
 
-  --link-color: var(--blue-800);
-  --link-hover-color: var(--blue-800);
+  --link-color: var(--joe-link);
+  --link-hover-color: var(--joe-link);
 
   --heading-color: var(--gray-900);
 
