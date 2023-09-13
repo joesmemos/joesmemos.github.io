@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header>
+        <div class="brand">
+          <a href="{{ site.baseurl }}/" title="Home">
+            <!--<img src="{{ '/assets/Joes_Memos_Header.png' | relative_url }}" alt="Joe's Memos">-->
+            <!--<span>{{ site.title }}</span>-->
+            <img src="{{ '/assets/Joes_Memos_Header.png' | relative_url }}" alt="Joe's Memos">
+          </a>
+        </div>
+        <nav>
+          <a href="/2020/04/03/options/">
+            Articles
+          </a>
+          <a href="/2020/04/02/example-content/">
+            Guides
+          </a>
+     
+          <a href="/2020/03/01/whats-jekyll/">
+            About
+          </a>
+          <a href="/2020/04/04/introduction/">
+            Night
+          </a>
+        </nav>
+    </header>
+    <main>
+      <section class="blog-content">
+        {{ content }}
+      </section>
+  </main>
+  <footer>
+      <nav>
+        <a href="#">
+          Articles
+        </a>
+        <a href="#">
+          Guides
+        </a>
+        <a href="#">
+          Newsletter
+        </a>
+        <a href="#">
+          RSS
+        </a>
+      </nav>
+      <div class="credits">
+        <p>
+          Joe's Memos <br/> &copy; 2023 <a href="https://instagram.com/joesmemos"> Joseph Kreydt </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
