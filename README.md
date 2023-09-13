@@ -1,19 +1,52 @@
-# Jekyll on Replit
+# joestheme
 
-This is a styled Jekyll template to get you started with Jekyll static site generator on Replit. It's ready to go so you can just hit run and start coding!
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
-The template uses the regular method of adding themes instead of gem-based themes. If you prefer using the gem-based themes use [Jekyll gem-based template](https://replit.com/@AvicNdugu/Jekyll-Using-Gem-base-Theme) instead. For those who want a barebone Jekyll theme without any styling, use [Barebone Jekyll template](https://replit.com/@AvicNdugu/Jekyll).
+To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-## Running the repl
+TODO: Delete this and the text above, and describe your gem
 
-Simply hit run!
 
-## Installing Additional packages
+## Installation
 
-To add packages to your Jekyll repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/v2.3/#getting-started).
+Add this line to your Jekyll site's `Gemfile`:
 
-To add a regular theme, find the desired theme on jekyll themes website. Then add the necessary folders(_layouts, _data, and _include) and files in the main home directory from the theme. Add your posts in the _posts directory.
+```ruby
+gem "joestheme"
+```
 
-## Help
+And add this line to your Jekyll site's `_config.yml`:
 
-If you need help you might be able to find an answer on [Jekyll docs](https://jekyllrb.com/) For help on Replit, visit [Replit docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+```yaml
+theme: joestheme
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install joestheme
+
+## Usage
+
+TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `joestheme.gemspec` accordingly.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
