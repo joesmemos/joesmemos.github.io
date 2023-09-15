@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fight Oppression with Rest"
 date:   2022-09-13 16:30:00 -0500
 categories: soul mind

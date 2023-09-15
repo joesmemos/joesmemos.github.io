@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Living Slowly"
 date:   2023-09-11 16:30:00 -0500
 categories: soul mind

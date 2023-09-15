@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "An AI-Generated Blog Post About Why AI Cannot Replace Poets"
 date:   2023-09-18 16:30:00 -0500
 categories: mind

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Faithfulness Explained by a Genius Philosopher"
 date:   2023-07-06 16:30:00 -0500
 categories: soul mind

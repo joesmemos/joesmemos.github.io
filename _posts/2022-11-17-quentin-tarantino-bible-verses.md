@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Quentin Tarantino Bible Verses"
 date:   2022-11-17 16:30:00 -0500
 categories: soul
