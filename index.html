@@ -4,7 +4,6 @@ title: Home
 ---
 <div class="columns">
   <div class="column">
-    
     <div class="posts">
       {% for post in paginator.posts %}
       <article class="post">
@@ -29,30 +28,6 @@ title: Home
         {% endif %}
       </div>
     </div>
-  </div>
-  <div class="column">
-    <aside class="aside">
-      <div class="tagline">
-          <p>Health. Happiness. Heaven.</p>
-        <img src="{{ '/assets/Joes_Memos_Sidebar_Pic.png' | relative_url }}" alt="Drawing by Joe - hand giving peace sign.">
-      </div>
-    <!--  {% if site.related_posts != empty %}
-    </div>
-    <div class="related">
-      <h3>Related posts</h3>
-      <ul class="related-posts">
-        {% for post in site.related_posts limit:3 %}
-          <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
-              <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}-->
-    </aside>
   </div>
 </div>
 

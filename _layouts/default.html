@@ -5,8 +5,6 @@
     <header>
         <div class="brand">
           <a href="{{ site.baseurl }}/" title="Home">
-            <!--<img src="{{ '/assets/Joes_Memos_Header.png' | relative_url }}" alt="Joe's Memos">-->
-            <!--<span>{{ site.title }}</span>-->
             <img src="{{ '/assets/Joes_Memos_Header.png' | relative_url }}" alt="Joe's Memos">
           </a>
         </div>
@@ -23,9 +21,44 @@
         </nav>
     </header>
     <main>
-      <section class="blog-content">
-        {{ content }}
-      </section>
+      <div class="columns">
+        <div class="column">
+          <section class="blog-content">
+            {{ content }}
+          </section>
+        </div>
+        <div class="column">
+          <aside class="aside">
+            <div class="tagline">
+              <p>
+                Health. Happiness. Heaven.
+              </p>
+              <img src="{{ '/assets/Joes_Memos_Sidebar_Pic.png' | relative_url }}" alt="Drawing by Joe - hand giving peace sign.">
+            <!--{% if site.related_posts != empty %}
+          </div>
+          <div class="related">
+            <h3>Related posts</h3>
+            <ul class="related-posts">
+              {% for post in site.related_posts limit:3 %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                    <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}-->
+          </aside>
+        </div>
+      </div>
+
+
+
+
+
+
   </main>
   <footer>
       <nav>
