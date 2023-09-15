@@ -2,27 +2,67 @@
 layout: default
 title: Home
 ---
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </article>
-  {% endfor %}
+<div class="columns">
+  <div class="column">
+    
+    <div class="posts">
+      {% for post in paginator.posts %}
+      <article class="post">
+        <h1 class="post-title">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </article>
+      {% endfor %}
+      <div class="pagination">
+        {% if paginator.next_page %}
+          <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+        {% else %}
+          <span class="pagination-item older">Older</span>
+        {% endif %}
+        {% if paginator.previous_page %}
+          <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
+        {% else %}
+          <span class="pagination-item newer">Newer</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+    
+  <div class="column">
+    <aside class="aside">
+      <div>
+        <!--<p>
+          Health. Happiness. Heaven.
+        </p>-->
+        <img src="{{ '/assets/Joes_Memos_Sidebar_Pic.png' | relative_url }}" alt="Drawing by Joe - hand giving peace sign.">
+    <!--  {% if site.related_posts != empty %}
+    </div>
+    <div class="related">
+      <h3>Related posts</h3>
+      <ul class="related-posts">
+        {% for post in site.related_posts limit:3 %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+              <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}-->
+    </aside>
+  </div>
 </div>
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
+
+
+
+
+
+
+
+
