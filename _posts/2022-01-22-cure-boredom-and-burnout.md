@@ -1,5 +1,5 @@
 ---
-layout: postwithsidebar
+layout: post
 title:  "Feeling Bored or Burnt Out? Try Less Hyper-Stimulation"
 date:   2022-01-22 16:50:47 -0500
 categories: mind soul
