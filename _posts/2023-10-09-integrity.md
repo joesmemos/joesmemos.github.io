@@ -1,6 +1,6 @@
 ---
 title:  "Integrity: How I Learned to Be Myself"
-date:   2023-10-05 17:00:00 -0500
+date:   2023-10-09 17:00:00 -0500
 categories: mind soul
 tags: philosophy psychology mental health mind soul integrity virtue ethic
 ---
