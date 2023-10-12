@@ -10,7 +10,7 @@ tags: philosophy psychology mental health mind soul integrity virtue ethic
 
 Why would I want to be myself? Maybe people don’t like me. Don’t I want to be someone else then? Ah, but there is great danger in changing myself for others. Changing the way I dress so that I can fit in at work may not be a big deal. Changing my values or moral actions so I can fit in at work, that is tragic.
 
-The fact is, my life was a tragedy for many years. I didn’t know how to be myself. I didn’t know who I was. I didn’t know what I valued or needed or wanted.
+The fact is, I was that way for many years. I didn’t know how to be myself. I didn’t know who I was. I didn’t know what I valued or needed or wanted.
 
 By God’s grace, I was knocked down. I was hurt. I realized that I must learn to be myself or risk greater tragedy. Pleasing others doesn’t work. After some major failures, and some deep contemplation to learn from them, I realized why I needed to be myself.
 
