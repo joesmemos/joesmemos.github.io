@@ -51,3 +51,8 @@ The book also has a method of shadow work toward its conclusion. ***That part of
 
 ### A Word of Caution
 There are many people on the internet who will speak of Jung’s ideas as though they have a strong grasp on them, but miss the mark entirely. [This post on Reddit](https://www.reddit.com/r/Jung/comments/10ratga/big_5_personality_traits_and_the_shadow/) is a good example of the broad range of beliefs among Jung’s followers. It is also an interesting idea to think about.
+
+### Addition
+I originally posted this on Medium.com. There, [Samantha Price Fischer](https://sammysue.medium.com) left the following comment:
+> I would say his autobiography "Memories, Dreams, and Reflections" is another beautiful way to get a feel for Jung the man.
+> It was completed near the end of his life and is excellent as an audible.
